@@ -1,0 +1,28 @@
+formatter: pretty
+header-from: main.tf
+
+sections:
+  #  hide-all: false
+  #hide:
+  #  - header
+  #  - inputs
+  #  - outputs
+  #  - providers
+  #  - requirements
+  show-all: false
+  show:
+    - inputs
+
+output-values:
+  enabled: false
+  from: ""
+
+sort:
+  enabled: true
+
+settings:
+  color: true
+  escape: false
+  indent: 2
+  required: true
+  sensitive: true
